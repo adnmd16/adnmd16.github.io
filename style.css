@@ -1,0 +1,70 @@
+/* Style général (déjà utilisé pour la page d'accueil) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Style pour la page d'accueil */
+.background-container {
+    background-image: url('page-d_accueil.png'); /* Chemin relatif de l'image */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.cta-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.cta {
+    background-color: #8B4513; /* couleur marron */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.cta:hover {
+    background-color: #A0522D; /* couleur marron plus claire au survol */
+}
+
+/* Styles pour les autres pages */
+.content {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+p, li {
+    margin-bottom: 20px;
+    color: #555;
+}
